@@ -1568,7 +1568,7 @@ class Options
             'prefer-ffmpeg' => $this->preferFFmpeg,
             'ffmpeg-location' => $this->ffmpegLocation,
             'exec' => $this->exec,
-            'convert-subs-format' => $this->convertSubsFormat,
+            'convert-subs' => $this->convertSubsFormat,
             'url' => $this->url,
         ];
     }

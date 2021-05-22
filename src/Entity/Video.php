@@ -113,7 +113,7 @@ class Video extends AbstractEntity
 
     public function getDuration(): ?int
     {
-        return $this->get('duration');
+        return (int)$this->get('duration');
     }
 
     public function getViewCount(): ?int
